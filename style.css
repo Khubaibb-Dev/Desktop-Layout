@@ -1,87 +1,110 @@
 *{
 margin: 0;
-padding:0
+padding: 0;
 }
 
-
 .topbar{
-background-color: black;
-padding: 12px;
+    background-color: black;
+padding: 10px;
 color: white;
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
 
-.right button{
-    background-color: white;
-    color:black;
-    padding: 10px;
-    border: none;
-    font-weight: bold;
+.topbar button {
+background-color: white;
+color: black;
+padding: 5px;
+border: none;
+border-radius: 5px;
+font-weight: bolder;
 }
 
 .navbar{
-    background-color: orange;
-padding: 10px ;
+background-color: burlywood;
+padding: 10px;
+color: black;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
 
+.logo{
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
 }
 
 .menu a{
-
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: larger;
-    margin:15px ;
+color: black;
+padding: 5px;
+margin: 5px;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: larger;
 }
 
 .banner{
+    background-image:url(./assets/img\ 3.avif);
 width: 100%;
-height: 90vh;
-background: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.596)),url(./assets/bg.avif);
-display: flex;
-justify-content: center;
+height: 80vh;
+background:linear-gradient(rgba(255, 255, 255, 0.527));
+background-position: center;
 background-size: cover;
+justify-content: center;
+display: flex;
 align-items: center;
-background-position:center;
-backdrop-filter: blur(5px);
 }
 
-.content{
-    text-align: center;
-margin: 15px;
-align-items: center;
+.content {
+    width: 800px;
 text-align: center;
-padding: 20px;
-width: 800px;
-margin-bottom: 15px;
-}
-
-.content button{
-    border-radius: 20px;
-    padding: 10px;
-    font-weight: bolder;
-    cursor: pointer;
-    border: none;
-    margin: 10px;
-
+color:black;    
+  
 }
 
 .content h1{
-    margin: 10px;
+font-size: 50px;
+margin-bottom: 15px;
+font-family: "Syncopate", sans-serif;
+font-weight: 700;
+
 }
 
 .content p{
-    margin: 10px;
+font-size: 20px;
+margin-bottom: 15px;
+font-weight: bolder;
 }
 
-.content button:hover{
 
-    background-color: black;
-    color: white;
+.content button{
+width: 150px;
+padding: 10px;
+background-color: white;
+color: black;
+border: none;
+border-radius: 15px;
+font-weight: bold;
+}
+
+.social-icons{
+    width: 100%;
+    height: 6vh;
+    padding: 5px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.social-icons a{
+color: black;
+margin: 20px;
+padding: 10px;
+font-size: 30px;
 
 }
+
+
+
